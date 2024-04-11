@@ -1,0 +1,93 @@
+html {
+    background: #f4f4f4;
+    font-family: "Arvo", serif;
+    color: #333333;
+  }
+  
+.navbar,
+.bg-primary {
+    background-color: #34495e;
+    border-color: #1abc9c;
+    color: #ffffff;
+}
+  
+.navbar-nav .nav-link {
+    margin-left: 3rem;
+  }
+  
+.btn-primary:hover {
+    background-color: #1abc9c;
+    color: #34495e;
+}
+  
+section {
+    padding: 0px 0;
+}
+  
+.card {
+    margin-bottom: 20px;
+}
+  
+h2 {
+    font-family: "Arvo", serif;
+    background: linear-gradient(
+        to left,
+        #1abc9c,
+        #3498db
+    ); /* Gradient background */
+    background-position: 0 100%;
+    background-size: 100% 4px;
+    background-repeat: repeat-x;
+    color: #000000;
+}
+  
+h7 {
+    font-family: "Arvo", serif;
+    font-size: 1.2rem;
+}
+  
+i {
+    font-size: 1.5rem;
+}
+  
+body {
+    background-color: #f4f4f4;
+}
+  
+#top {
+    font-family: "Arvo", serif;
+    background: linear-gradient(to left, #1abc9c, #3498db);
+    background-position: 0 100%;
+    text-align: center;
+    background-size: 100% 4px;
+    background-repeat: repeat-x;
+}
+  
+.fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+  
+.everythingelse {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+  
+.div1 {
+    width: 300px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+  
+.div2 {
+    width: 800px;
+}
+  
